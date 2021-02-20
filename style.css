@@ -1,0 +1,109 @@
+/*--Global Styles--*/
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+/*--Utility Class Helpers--*/
+.text-align-center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/*--Semantic Class Helpers--*/
+
+/*--Header Styles--*/
+
+.page-header {
+    background-color: darkslategray;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: steelblue;
+}
+
+/*--Hero Styles--*/
+
+.hero-image {
+    background-image: url(./assets/lfz-logo.png);
+    background-color: #303b43;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    height: 350px;
+}
+
+.student-name {
+    font-size: 80px;
+    background-color: #303b43;
+    border-top: 5px double white;
+    border-bottom: 5px double white;
+}
+
+/*--About Styles--*/
+
+.about-section {
+    background-color: whitesmoke;
+}
+
+.about-image {
+    max-height: 80%;
+    border: 6px solid slategray;
+}
+
+.text-align-reset {
+    text-align: initial;
+}
+
+/*--Technologies Styles--*/
+
+.tech-section {
+    background-color: gainsboro;
+}
+
+/*--Products Styles--*/
+.product-section {
+    background-color: snow;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*--Contact Styles--*/
+.contact-section {
+    background-color: #303b43;
+    font-weight: bold;
+}
+
+.blue-text {
+    color: lightblue;
+}
